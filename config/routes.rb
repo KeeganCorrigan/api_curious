@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   delete 'signout', to: 'sessions#destroy', as: 'signout'
   root to: 'sessions#new'
 
-  resources :users, only: [:show]
+  resources :users, only: [:show] do
+    get "/followers", to: "users/followers#index"
+  end
 end
