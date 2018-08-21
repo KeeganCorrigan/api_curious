@@ -24,7 +24,6 @@
         0,
         0,
         0,
-        0,
         null,
         null,
         null,
@@ -69,14 +68,42 @@
         0,
         0,
         null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
         null
       ],
       "/Users/Keegan/turing/3module/api_curious/app/models/application_record.rb": [
         0,
         0,
         0
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/controllers/users/followers_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/controllers/users/following_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/controllers/users/starred_controller.rb": [
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1534818388
+    "timestamp": 1534875206
   }
 }

@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   root to: 'sessions#new'
 
   resources :users, only: [:show] do
-    get "/followers", to: "users/followers#index"
     get "/following", to: "users/following#index"
+    get "/starred", to: "users/starred#index"
+    get "/followers", to: "users/followers#index"
   end
 end

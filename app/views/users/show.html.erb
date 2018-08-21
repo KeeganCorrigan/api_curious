@@ -2,6 +2,8 @@
   You are signed in as <%= current_user.username %>.  Click the button below to sign out.
 </p>
 
+<%= require 'pry'; binding.pry %>
+
 <%= image_tag(current_user.avatar_url) %>
 
 <p>
@@ -17,8 +19,8 @@
 </p>
 
 <p>
-  <%= link_to user_following_path(current_user) do %>
-    Starred: <%= current_user.following.length %>
+  <%= link_to user_starred_path(current_user) do %>
+    Starred: <%= current_user.starred.length %>
   <% end %>
 </p>
 

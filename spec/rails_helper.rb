@@ -27,7 +27,7 @@ omniauth_hash = {
                     },
                   'credentials' =>
                     {
-                      'token' => '04e2dea76308bbee0441bc822ac77ec580adc8d4'
+                      'token' => '0409ua09sd09u09aus90u'
                     }
                 }
 
