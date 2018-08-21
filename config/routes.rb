@@ -7,5 +7,6 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show] do
     get "/followers", to: "users/followers#index"
+    get "/following", to: "users/following#index"
   end
 end

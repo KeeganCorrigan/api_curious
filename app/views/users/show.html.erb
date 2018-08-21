@@ -10,4 +10,16 @@
   <% end %>
 </p>
 
+<p>
+  <%= link_to user_following_path(current_user) do %>
+    Following: <%= current_user.following.length %>
+  <% end %>
+</p>
+
+<p>
+  <%= link_to user_following_path(current_user) do %>
+    Starred: <%= current_user.following.length %>
+  <% end %>
+</p>
+
 <%= button_to "Sign Out", signout_path, method: :delete %>

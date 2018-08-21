@@ -15,4 +15,14 @@ class User < ActiveRecord::Base
     response = Faraday.get "https://api.github.com/users/#{self.username.split.join}/followers"
     JSON.parse(response.body)
   end
+
+  def following
+    response = Faraday.get "https://api.github.com/users/#{self.username.split.join}/following"
+    JSON.parse(response.body)
+  end
+
+  def starred
+    response = Faraday.get "https://api.github.com/users/#{self.username.split.join}/starred"
+    JSON.parse(response.body)
+  end
 end
