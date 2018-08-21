@@ -13,25 +13,34 @@ ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
+require 'webmock/rspec'
+require 'vcr'
 
-OmniAuth.config.test_mode = true
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/cassettes"
+  config.hook_into :webmock
+end
 
-omniauth_hash = {
-                  'provider' => 'github',
-                  'uid' => '8312280',
-                  'info' =>
-                    {
-                      'name' => 'Keegan Corrigan',
-                      'email' => 'keegan.rw.corrigan@gmail.com',
-                      'image' => 'https://avatars3.githubusercontent.com/u/8312280?v=4'
-                    },
-                  'credentials' =>
-                    {
-                      'token' => '0409ua09sd09u09aus90u'
-                    }
-                }
+def stub_omniauth
+  OmniAuth.config.test_mode = true
 
-OmniAuth.config.add_mock(:github, omniauth_hash)
+  omniauth_hash = {
+                    'provider' => 'github',
+                    'uid' => '8312280',
+                    'info' =>
+                      {
+                        'name' => 'Keegan Corrigan',
+                        'email' => 'keegan.rw.corrigan@gmail.com',
+                        'image' => 'https://avatars3.githubusercontent.com/u/8312280?v=4'
+                      },
+                    'credentials' =>
+                      {
+                        'token' => '0409ua09sd09u09aus90u'
+                      }
+                  }
+
+  OmniAuth.config.add_mock(:github, omniauth_hash)
+end
 
 begin
   ActiveRecord::Migration.maintain_test_schema!
@@ -41,10 +50,12 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 RSpec.configure do |config|
+
   config.before(:suite) do
     DatabaseCleaner.strategy = :truncation
     DatabaseCleaner.clean_with(:truncation)
   end
+
   config.around(:each) do |example|
     DatabaseCleaner.cleaning do
       example.run
@@ -57,6 +68,8 @@ RSpec.configure do |config|
       with.library :rails
     end
   end
+
+  config.include FactoryBot::Syntax::Methods
 
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 

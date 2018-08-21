@@ -20,12 +20,16 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'simplecov', require: false, group: :test
   gem 'rspec-rails'
+  gem 'selenium-webdriver'
   gem 'launchy'
   gem 'shoulda-matchers'
   gem 'database_cleaner'
   gem 'pry'
   gem "figaro"
   gem "capybara"
+  gem 'factory_bot_rails'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
