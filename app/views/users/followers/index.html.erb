@@ -1,6 +1,6 @@
 <h1>Followers</h1>
 
-<% @github_presenter.followers.each do |follower| %>
-  <%= image_tag(follower['avatar_url']) %>
-  <p><%= follower["login"] %></p>
+<% @followers.each do |follower| %>
+  <%= image_tag(follower.avatar_url) %>
+  <p><%= follower.username %></p>
 <% end %>

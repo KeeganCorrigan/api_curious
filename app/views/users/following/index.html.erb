@@ -1,6 +1,6 @@
 <h1>Following</h1>
 
-<% current_user.following.each do |following| %>
-  <%= image_tag(following['avatar_url']) %>
-  <p><%= following["login"] %></p>
+<% @following.each do |following| %>
+  <%= image_tag(following.avatar_url) %>
+  <p><%= following.username %></p>
 <% end %>

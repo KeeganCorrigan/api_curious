@@ -11,14 +11,9 @@ class User < ActiveRecord::Base
       user.save!
     end
   end
-  
+
   def nickname
     self.username.delete(" ")
-  end
-
-  def followers
-    response = Faraday.get "https://api.github.com/users/#{self.username.split.join}/followers"
-    JSON.parse(response.body)
   end
 
   def following
