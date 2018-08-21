@@ -1,0 +1,82 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Keegan/turing/3module/api_curious/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/controllers/sessions_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/controllers/application_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/controllers/users_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/models/user.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/3module/api_curious/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1534818142
+  }
+}
