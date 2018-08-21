@@ -5,7 +5,9 @@
 <%= image_tag(current_user.avatar_url) %>
 
 <p>
-  Followers: <%= current_user.number_of_followers %>
+  <%= link_to user_followers_path(current_user) do %>
+    Followers: <%= current_user.followers.length %>
+  <% end %>
 </p>
 
 <%= button_to "Sign Out", signout_path, method: :delete %>
