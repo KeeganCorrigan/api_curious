@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_initialize.tap do |user|
       user.email = auth.info.email
@@ -9,6 +10,10 @@ class User < ActiveRecord::Base
       user.oauth_token = auth.credentials.token
       user.save!
     end
+  end
+  
+  def nickname
+    self.username.delete(" ")
   end
 
   def followers
