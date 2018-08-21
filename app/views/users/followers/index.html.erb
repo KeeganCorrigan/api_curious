@@ -1,0 +1,4 @@
+<% current_user.followers.each do |follower| %>
+  <%= image_tag(follower['avatar_url']) %>
+  <p><%= follower["login"] %></p>
+<% end %>
