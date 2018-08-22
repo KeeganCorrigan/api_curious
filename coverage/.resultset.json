@@ -13,6 +13,18 @@
         1,
         null
       ],
+      "/Users/Keegan/turing/3module/api_curious/app/models/commit.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Keegan/turing/3module/api_curious/app/models/github_user.rb": [
         1,
         1,
@@ -129,6 +141,7 @@
         3,
         3,
         3,
+        3,
         null,
         null,
         null,
@@ -149,6 +162,12 @@
         null,
         null,
         1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        0,
         0,
         null,
         null,
@@ -213,6 +232,6 @@
         0
       ]
     },
-    "timestamp": 1534902655
+    "timestamp": 1534911486
   }
 }

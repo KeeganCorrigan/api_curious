@@ -26,6 +26,13 @@ class GithubPresenter
     end
   end
 
+  def recent_commits
+    binding.pry
+    @github_service.recent_commits[:items].map do |commit|
+      Commit.new(commit)
+    end
+  end
+
   def organizations
     @github_service.organizations.map do |organization|
       Organization.new(organization)
