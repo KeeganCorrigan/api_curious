@@ -27,7 +27,6 @@ class GithubPresenter
   end
 
   def recent_commits
-    binding.pry
     @github_service.recent_commits[:items].map do |commit|
       Commit.new(commit)
     end

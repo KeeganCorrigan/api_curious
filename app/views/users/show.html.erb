@@ -2,26 +2,32 @@
   You are signed in as <%= current_user.username %>.  Click the button below to sign out.
 </p>
 
-<%= image_tag(current_user.avatar_url) %>
+<div class="clearfix">
 
-<p>
-  <%= link_to "Followers", user_followers_path(current_user)%>
-</p>
+  <div class="sm-col sm-col-3">
+    <%= image_tag current_user.avatar_url, class:"profile-image"  %>
+    <h2><%= current_user.username %></h3>
+    <h3><%= current_user.nickname %></h4>
+    <p>
+      <%= link_to "Organization", user_organizations_path(current_user) %>
+    </p>
+    <p>
+      Starred: <%= @starred %>
+    </p>
+    <%= button_to "Sign Out", signout_path, method: :delete %>
+  </div>
 
-<p>
-  <%= link_to "Following", user_following_path(current_user) %>
-</p>
+  <div class="sm-col sm-col-9">
 
-<p>
-  <%= link_to "Repos", user_repos_path(current_user) %>
-</p>
+    <div class="mxn1">
+      <%= link_to "Followers", user_followers_path(current_user), class:"btn button-narrow"%> /
+      <%= link_to "Following", user_following_path(current_user),class:"btn button-narrow" %> /
+      <%= link_to "Repos", user_repos_path(current_user),class:"btn button-narrow" %>
+    </div>
 
-<p>
-  <%= link_to "Organization", user_organizations_path(current_user) %>
-</p>
-
-<p>
-  Starred: <%= @starred %>
-</p>
-
-<%= button_to "Sign Out", signout_path, method: :delete %>
+    <% @recent_commits.each do |commit| %>
+      <p><%= commit.date %><p>
+      <p><%= commit.message %><p>
+    <% end %>
+  </div>
+</div>
