@@ -3,7 +3,10 @@ require "rails_helper"
 describe "a user logs in" do
   describe "they click on followers" do
     it "goes to a page that displays followers" do
-      user = User.create!(username: "iaijs", avatar_url: "https://en.wikipedia.org/wiki/Dog#/media/File:Collage_of_Nine_Dogs.jpg", email: "j09joi", uid: 1, provider: "github", oauth_token: "90jioda")
+      user = create(:user)
+
+      json_response = File.open("./fixtures/followers.json")
+      stub_request(:get, "https://api.github.com/users/keegancorrigan/followers").to_return(status: 200, body: json_response)
 
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 

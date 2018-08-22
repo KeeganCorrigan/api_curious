@@ -25,9 +25,6 @@
       <%= link_to "Repos", user_repos_path(current_user),class:"btn button-narrow" %>
     </div>
 
-    <% @recent_commits.each do |commit| %>
-      <p><%= commit.date %><p>
-      <p><%= commit.message %><p>
-    <% end %>
+
   </div>
 </div>
