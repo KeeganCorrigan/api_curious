@@ -28,6 +28,9 @@ group :development, :test do
   gem "figaro"
   gem "capybara"
   gem 'factory_bot_rails'
+end
+
+group :test do
   gem 'vcr'
   gem 'webmock'
 end

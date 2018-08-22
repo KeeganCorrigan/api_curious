@@ -2,7 +2,7 @@ class GithubService
   def initialize(current_user)
     @current_user  = current_user.nickname
     @conn          = Faraday.new(url: "https://api.github.com") do |faraday|
-                      faraday.headers["Authorization"] = current_user.oauth_token
+                      faraday.headers["Authorization"] = "token #{current_user.oauth_token}"
                       faraday.headers["Accept"] = "application/vnd.github.cloak-preview"
                       faraday.adapter Faraday.default_adapter
                     end
@@ -35,6 +35,8 @@ class GithubService
   def recent_commits
     get_url("/search/commits?q=committer-name:#{@current_user}+committer-date:>#{search_date}")
   end
+
+  private
 
   def get_url(url)
     response = @conn.get(url)
