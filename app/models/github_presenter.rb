@@ -15,4 +15,14 @@ class GithubPresenter
       GithubUser.new(following)
     end
   end
+
+  def starred
+    @github_service.starred.count
+  end
+
+  def repos
+    @github_service.repos.map do |repo|
+      Repo.new(repo)
+    end
+  end
 end

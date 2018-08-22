@@ -13,7 +13,11 @@
 </p>
 
 <p>
-  <%= link_to "Starred", user_starred_path(current_user) %>
+  <%= link_to "Repos", user_repos_path(current_user) %>
+</p>
+
+<p>
+  Starred: <%= @starred %>
 </p>
 
 <%= button_to "Sign Out", signout_path, method: :delete %>

@@ -9,5 +9,6 @@ Rails.application.routes.draw do
     get "/following", to: "users/following#index"
     get "/starred", to: "users/starred#index"
     get "/followers", to: "users/followers#index"
+    get "/repos", to: "users/repos#index"
   end
 end
