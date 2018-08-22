@@ -25,4 +25,10 @@ class GithubPresenter
       Repo.new(repo)
     end
   end
+
+  def organizations
+    @github_service.organizations.map do |organization|
+      Organization.new(organization)
+    end
+  end
 end

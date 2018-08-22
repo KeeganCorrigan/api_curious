@@ -1,0 +1,8 @@
+<h1>Organizations</h1>
+
+<% @organizations.each do |organization| %>
+  <p><%= organization.login %></p>
+  <p><%= description.login %></p>
+  <%= link_to "repos", repos_url.login %>
+  <p><%= organization.login %></p>
+<% end %>
