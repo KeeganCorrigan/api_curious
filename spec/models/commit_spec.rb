@@ -12,6 +12,10 @@ describe Commit, type: :model do
                       name: "BillBrasky"
                     },
                   message: "pijasd09j09jasndaoasdoijad"
+                },
+              repository:
+                {
+                  name: "something"
                 }
             }
 
@@ -21,5 +25,7 @@ describe Commit, type: :model do
     expect(commit.date).to eq(data[:commit][:author][:date])
     expect(commit.name).to eq(data[:commit][:author][:name])
     expect(commit.message).to eq(data[:commit][:message])
+    expect(commit.repo_name).to eq(data[:repository][:name])
+
   end
 end
