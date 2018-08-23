@@ -34,11 +34,19 @@ def stub_omniauth
                       {
                         'name' => 'Keegan Corrigan',
                         'email' => 'keegan.rw.corrigan@gmail.com',
-                        'image' => 'https://avatars3.githubusercontent.com/u/8312280?v=4'
+                        'image' => 'https://avatars3.githubusercontent.com/u/8312280?v=4',
+                        'nickname' => 'KeeganCorrigan'
                       },
                     'credentials' =>
                       {
                         'token' => ENV['GITHUB_TEST']
+                      },
+                    'extra' =>
+                      {
+                        'raw_info' =>
+                          {
+                            'public_repos' => '46'
+                          }
                       }
                   }
 

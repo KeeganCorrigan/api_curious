@@ -8,11 +8,9 @@ class User < ActiveRecord::Base
       user.avatar_url = auth.info.image
       user.username = auth.info.name
       user.oauth_token = auth.credentials.token
+      user.repos = auth.extra.raw_info.public_repos
+      user.nickname = auth.info.nickname
       user.save!
     end
-  end
-
-  def nickname
-    self.username.delete(" ")
   end
 end

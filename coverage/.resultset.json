@@ -59,26 +59,6 @@
         null,
         null
       ],
-      "/Users/Keegan/turing/3module/api_curious/app/models/user.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        20,
-        null,
-        null
-      ],
       "/Users/Keegan/turing/3module/api_curious/app/models/github_presenter.rb": [
         1,
         1,
@@ -167,6 +147,24 @@
         null,
         null
       ],
+      "/Users/Keegan/turing/3module/api_curious/app/models/user.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/Keegan/turing/3module/api_curious/app/controllers/application_controller.rb": [
         1,
         1,
@@ -235,6 +233,6 @@
         null
       ]
     },
-    "timestamp": 1535034527
+    "timestamp": 1535040738
   }
 }
