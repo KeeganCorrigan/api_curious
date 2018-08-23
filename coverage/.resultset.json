@@ -174,7 +174,7 @@
         1,
         null,
         1,
-        10,
+        11,
         null,
         null
       ],
@@ -233,13 +233,8 @@
         1,
         null,
         null
-      ],
-      "/Users/Keegan/turing/3module/api_curious/app/models/application_record.rb": [
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1535002680
+    "timestamp": 1535034527
   }
 }

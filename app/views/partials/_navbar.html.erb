@@ -5,7 +5,9 @@
     <a href="#!" class="btn button-narrow py2 m0">Fries</a>
   </div>
   <div class="right pr4">
-    <a href="#!" class="btn button-narrow py2 m0">Logout</a>
+    <% if current_user %>
+      <%= link_to "Logout", signout_path, method: "delete", class:"btn button-narrow py2 m0" %>
+    <% end %>
   </div>
   <div class="clearfix sm-hide"></div>
 </div>

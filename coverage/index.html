@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-08-22T23:38:00-06:00">2018-08-22T23:38:00-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-08-23T08:28:47-06:00">2018-08-23T08:28:47-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">95.8%</span></span>
+    (<span class="covered_percent"><span class="green">98.28%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         4.59
+         4.72
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>18</b> files in total.
-    <b>119</b> relevant lines. 
+    <b>17</b> files in total.
+    <b>116</b> relevant lines. 
     <span class="green"><b>114</b> lines covered</span> and
-    <span class="red"><b>5</b> lines missed </span>
+    <span class="red"><b>2</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -57,7 +57,7 @@
         <td>5</td>
         <td>5</td>
         <td>0</td>
-        <td>2.8</td>
+        <td>3.0</td>
       </tr>
       
       <tr>
@@ -151,16 +151,6 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#b05683466afe6b7a515ab9292a01129b9d3aebb2" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
-        <td class="red strong">0.0 %</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>3</td>
-        <td>0.0</td>
-      </tr>
-      
-      <tr>
         <td class="strong"><a href="#99b2eecde54b9ebc27582d9ae0339d2bd8e8b823" class="src_link" title="app/models/commit.rb">app/models/commit.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>10</td>
@@ -243,7 +233,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.26
+         1.3
        </span>
     </span> hits/line)
   </h2>
@@ -275,7 +265,7 @@
         <td>5</td>
         <td>5</td>
         <td>0</td>
-        <td>2.8</td>
+        <td>3.0</td>
       </tr>
       
       <tr>
@@ -346,20 +336,20 @@
           <div class="file_list_container" id="Models">
   <h2>
     <span class="group_name">Models</span>
-    (<span class="covered_percent"><span class="green">95.08%</span></span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         5.62
+         5.91
        </span>
     </span> hits/line)
   </h2>
   <a name="Models"></a>
   <div>
-    <b>7</b> files in total.
-    <b>61</b> relevant lines. 
+    <b>6</b> files in total.
+    <b>58</b> relevant lines. 
     <span class="green"><b>58</b> lines covered</span> and
-    <span class="red"><b>3</b> lines missed </span>
+    <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -374,16 +364,6 @@
       </tr>
     </thead>
     <tbody>
-      
-      <tr>
-        <td class="strong"><a href="#b05683466afe6b7a515ab9292a01129b9d3aebb2" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
-        <td class="red strong">0.0 %</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>3</td>
-        <td>0.0</td>
-      </tr>
       
       <tr>
         <td class="strong"><a href="#99b2eecde54b9ebc27582d9ae0339d2bd8e8b823" class="src_link" title="app/models/commit.rb">app/models/commit.rb</a></td>
@@ -735,8 +715,8 @@
           <code class="ruby">  def current_user</code>
         </li>
       
-        <li class="covered" data-hits="10" data-linenumber="7">
-          <span class="hits">10</span>
+        <li class="covered" data-hits="11" data-linenumber="7">
+          <span class="hits">11</span>
           
           <code class="ruby">    current_user ||= User.find_by(id: session[:user_id])</code>
         </li>
@@ -859,7 +839,7 @@
         <li class="missed" data-hits="0" data-linenumber="15">
           
           
-          <code class="ruby">    reset_session</code>
+          <code class="ruby">    session.clear</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="16">
@@ -1219,43 +1199,6 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-    </ol>
-  </pre>
-</div>
-
-      
-        <div class="source_table" id="b05683466afe6b7a515ab9292a01129b9d3aebb2">
-  <div class="header">
-    <h3>app/models/application_record.rb</h3>
-    <h4><span class="red">0.0 %</span> covered</h4>
-    <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>0</b> lines covered</span> and
-      <span class="red"><b>3</b> lines missed.</span>
-    </div>
-  </div>
-  
-  <pre>
-    <ol>
-      
-        <li class="missed" data-hits="0" data-linenumber="1">
-          
-          
-          <code class="ruby">class ApplicationRecord &lt; ActiveRecord::Base</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="2">
-          
-          
-          <code class="ruby">  self.abstract_class = true</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="3">
           
           
           <code class="ruby">end</code>

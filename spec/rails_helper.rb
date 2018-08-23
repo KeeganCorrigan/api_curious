@@ -6,6 +6,7 @@ SimpleCov.start 'rails' do
  add_filter "app/channels/application_cable/connection.rb"
  add_filter "app/jobs/application_job.rb"
  add_filter "app/mailers/application_mailer.rb"
+ add_filter "app/models/application_record.rb"
 end
 
 require 'spec_helper'
@@ -20,6 +21,7 @@ VCR.configure do |config|
   config.cassette_library_dir = "spec/cassettes"
   config.hook_into :webmock
   config.allow_http_connections_when_no_cassette = true
+  config.filter_sensitive_data('<key>') { ENV["GITHUB_TEST"] }
 end
 
 def stub_omniauth
