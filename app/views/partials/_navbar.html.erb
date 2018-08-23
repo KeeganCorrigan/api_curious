@@ -1,0 +1,13 @@
+<div class="clearfix mb2 white bg-black">
+  <div class="left pl4">
+    <i class="fab fa-github"></i>
+    <a href="#!" class="btn py2 m0">GrabCore</a>
+    <a href="#!" class="btn button-narrow py2 m0">Fries</a>
+  </div>
+  <div class="right pr4">
+    <% if current_user %>
+      <%= link_to "Logout", signout_path, class:"btn button-narrow py2 m0" %>
+    <% end %>
+  </div>
+  <div class="clearfix sm-hide"></div>
+</div>

@@ -1,0 +1,8 @@
+<h1>Organizations</h1>
+
+<% @organizations.each do |organization| %>
+  <div class="organizations">
+    <p class="login"><%= organization.login %></p>
+    <p><%= organization.description %></p>
+  </div>
+<% end %>

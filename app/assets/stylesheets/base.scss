@@ -1,0 +1,14 @@
+@import 'shared_values';
+
+body {
+  font-family: $primary-font;
+}
+
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+img {
+  border-radius: 10px;
+}

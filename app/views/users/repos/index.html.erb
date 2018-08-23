@@ -1,0 +1,9 @@
+<h1>Repos</h1>
+
+<% @repos.each do |repo| %>
+  <div class="repos">
+    <p class="name">Name: <%= repo.name %></p>
+    <p>Language: <%= repo.language %></p>
+    <p>Stargazers: <%= repo.stargazers_count %></p>
+  </div>
+<% end %>

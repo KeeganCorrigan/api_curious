@@ -4,7 +4,7 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-
+gem 'basscss-rails'
 gem 'haml'
 gem 'omniauth-github'
 gem 'faraday'
@@ -20,11 +20,19 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'simplecov', require: false, group: :test
   gem 'rspec-rails'
+  gem 'selenium-webdriver'
   gem 'launchy'
   gem 'shoulda-matchers'
   gem 'database_cleaner'
   gem 'pry'
   gem "figaro"
+  gem "capybara"
+  gem 'factory_bot_rails'
+end
+
+group :test do
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do

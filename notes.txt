@@ -1,0 +1,25 @@
+
+
+
+
+
+
+<p>
+  <%= link_to user_followers_path(current_user) do %>
+    Followers: <%= github_presenter.followers.length %>
+  <% end %>
+</p>
+
+<p>
+  <%= link_to user_following_path(current_user) do %>
+    Following: <%= github_presenter.following.length %>
+  <% end %>
+</p>
+
+<p>
+  <%= link_to user_starred_path(current_user) do %>
+    Starred: <%= github_presenter.starred.length %>
+  <% end %>
+</p>
+
+<%= button_to "Sign Out", signout_path, method: :delete %>
