@@ -1,1 +1,14 @@
 @import 'shared_values';
+
+.navbar {
+  font-family: $heading-font;
+  background-color: #181818;
+  .navflex {
+    display: flex;
+    align-items: baseline;
+    .logout-button {
+      flex-grow: 1;
+      text-align: right;
+    }
+  }
+}
