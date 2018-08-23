@@ -22,7 +22,7 @@ describe "a user logs in" do
       expect(page).to have_content("Following")
       expect(page).to have_content("Repos")
 
-      expect(page).to have_content("Starred: 1")
+      expect(page).to have_content("Starred")
 
       expect(page).to have_css(".commit", count: 3)
 
