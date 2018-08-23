@@ -6,7 +6,7 @@ FactoryBot.define do
     avatar_url "https://something.com/1.jpg"
     username "Keegan Corrigan"
     oauth_token ENV["GITHUB_TEST"]
-    repos 48
+    repos 1
     nickname "KeeganCorrigan"
   end
 end

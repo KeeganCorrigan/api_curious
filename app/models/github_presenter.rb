@@ -20,6 +20,7 @@ class GithubPresenter
   end
 
   def repos
+    
     @github_service.repos.map do |repo|
       Repo.new(repo)
     end
