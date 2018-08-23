@@ -1,6 +1,9 @@
 <h1>Followers</h1>
 
+
 <% @followers.each do |follower| %>
-  <%= image_tag(follower.avatar_url) %>
-  <p><%= follower.username %></p>
+  <div class="followers">
+    <%= image_tag(follower.avatar_url) %>
+    <p class="username"><%= follower.username %></p>
+  </div>
 <% end %>

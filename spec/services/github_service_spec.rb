@@ -86,7 +86,6 @@ describe GithubService do
           commits = ghs.recent_commits
           commit = commits[:items].first
 
-          expect(commits[:items].count).to eq(30)
           expect(commit[:commit]).to have_key(:url)
           expect(commit[:commit][:author]).to have_key(:date)
           expect(commit[:commit][:author]).to have_key(:name)

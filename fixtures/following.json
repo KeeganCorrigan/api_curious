@@ -1,0 +1,42 @@
+[
+    {
+        "login": "NicholasJacques",
+        "id": 20036943,
+        "node_id": "MDQ6VXNlcjIwMDM2OTQz",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/20036943?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/NicholasJacques",
+        "html_url": "https://github.com/NicholasJacques",
+        "followers_url": "https://api.github.com/users/NicholasJacques/followers",
+        "following_url": "https://api.github.com/users/NicholasJacques/following{/other_user}",
+        "gists_url": "https://api.github.com/users/NicholasJacques/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/NicholasJacques/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/NicholasJacques/subscriptions",
+        "organizations_url": "https://api.github.com/users/NicholasJacques/orgs",
+        "repos_url": "https://api.github.com/users/NicholasJacques/repos",
+        "events_url": "https://api.github.com/users/NicholasJacques/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/NicholasJacques/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    {
+        "login": "charliecorrigan",
+        "id": 20289631,
+        "node_id": "MDQ6VXNlcjIwMjg5NjMx",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/20289631?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charliecorrigan",
+        "html_url": "https://github.com/charliecorrigan",
+        "followers_url": "https://api.github.com/users/charliecorrigan/followers",
+        "following_url": "https://api.github.com/users/charliecorrigan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charliecorrigan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charliecorrigan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charliecorrigan/subscriptions",
+        "organizations_url": "https://api.github.com/users/charliecorrigan/orgs",
+        "repos_url": "https://api.github.com/users/charliecorrigan/repos",
+        "events_url": "https://api.github.com/users/charliecorrigan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charliecorrigan/received_events",
+        "type": "User",
+        "site_admin": false
+    }
+]

@@ -19,7 +19,7 @@ require 'vcr'
 VCR.configure do |config|
   config.cassette_library_dir = "spec/cassettes"
   config.hook_into :webmock
-  allow_http_connections_when_no_cassette = true
+  config.allow_http_connections_when_no_cassette = true
 end
 
 def stub_omniauth
@@ -42,6 +42,8 @@ def stub_omniauth
 
   OmniAuth.config.add_mock(:github, omniauth_hash)
 end
+
+Dir[Rails.root.join('spec', 'support', '**', '*.rb')].each { |f| require f }
 
 begin
   ActiveRecord::Migration.maintain_test_schema!
@@ -74,9 +76,7 @@ RSpec.configure do |config|
 
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
-
   config.use_transactional_fixtures = true
-
 
   config.infer_spec_type_from_file_location!
 

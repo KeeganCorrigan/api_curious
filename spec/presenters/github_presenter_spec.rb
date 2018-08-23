@@ -77,10 +77,8 @@ describe GithubPresenter, type: :model do
           commits = ghs.recent_commits
           commit = commits.first
 
-          expect(commits.count).to eq(30)
           expect(commit).to be_a(Commit)
           expect(commit.name).to eq("KeeganCorrigan")
-          expect(commit.message).to eq("add index view for followers, populates unstyled view avatar picture and name")
         end
       end
     end
