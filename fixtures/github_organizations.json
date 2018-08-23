@@ -1,0 +1,16 @@
+[
+    {
+        "login": "turingschool",
+        "id": 7934292,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjc5MzQyOTI=",
+        "url": "https://api.github.com/orgs/turingschool",
+        "repos_url": "https://api.github.com/orgs/turingschool/repos",
+        "events_url": "https://api.github.com/orgs/turingschool/events",
+        "hooks_url": "https://api.github.com/orgs/turingschool/hooks",
+        "issues_url": "https://api.github.com/orgs/turingschool/issues",
+        "members_url": "https://api.github.com/orgs/turingschool/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/turingschool/public_members{/member}",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/7934292?v=4",
+        "description": ""
+    }
+]

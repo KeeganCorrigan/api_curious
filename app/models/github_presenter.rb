@@ -1,6 +1,5 @@
 class GithubPresenter
   def initialize(current_user)
-    @current_user = current_user
     @github_service = GithubService.new(current_user)
   end
 
