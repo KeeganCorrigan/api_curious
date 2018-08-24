@@ -12,7 +12,7 @@ describe GithubPresenter, type: :model do
           followers = ghs.followers
           follower = followers.first
 
-          expect(followers.count).to eq(4)
+          expect(followers.count).to eq(5)
           expect(follower).to be_a(GithubUser)
           expect(follower.username).to eq("NicholasJacques")
         end

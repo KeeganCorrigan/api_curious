@@ -1,5 +1,5 @@
 class Users::FollowersController < ApplicationController
   def index
-    @followers = GithubPresenter.new(current_user).followers
+    @github_presenter = GithubPresenter.new(current_user)
   end
 end

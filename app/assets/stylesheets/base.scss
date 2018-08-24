@@ -2,13 +2,47 @@
 
 body {
   font-family: $primary-font;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
-main {
-  padding-left: 5%;
-  padding-right: 5%;
-}
 
 img {
   border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+footer {
+  position: absolute;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #181818;
+  .footer-link-text {
+    color: whitesmoke;
+  }
 }

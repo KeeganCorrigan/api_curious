@@ -1,9 +1,37 @@
-<h1>Followers</h1>
+<div class="clearfix">
 
-
-<% @followers.each do |follower| %>
-  <div class="followers">
-    <%= image_tag(follower.avatar_url) %>
-    <p class="username"><%= follower.username %></p>
+  <div class="sm-col sm-col-3">
+  <%= render partial:"/partials/profile_info" %>
   </div>
-<% end %>
+
+  <div class="sm-col sm-col-9">
+    <%= render partial: "/partials/on_page_nav" %>
+
+
+  <h2>Followers</h2>
+  <% @github_presenter.followers.each do |follower| %>
+
+    <div class="followers clearfix flex items-center mb2">
+      <div class="sm-col sm-col-3 follower-table">
+        <div class="left mr1">
+          <%= image_tag follower.avatar_url, class:"follower-image" %>
+        </div>
+        <div class="overflow-hidden">
+          <p class="username"><%= follower.username %></p>
+        </div>
+      </div>
+
+      <div class="sm-col sm-col-9">
+        <div class="recent-commit follower-table-text">
+          <% if follower.commits != "No recent commits" %>
+            <p> <strong>Recent commit Message:</strong> <%= follower&.commits&.first&.message %></p>
+            <p> <strong>Repo:</strong> <%= follower&.commits&.first&.repo_name %></p>
+          <% else %>
+            <p><strong> <%= follower.commits %> </strong></p>
+            <p> Get back to work <%= follower.username %>! </p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

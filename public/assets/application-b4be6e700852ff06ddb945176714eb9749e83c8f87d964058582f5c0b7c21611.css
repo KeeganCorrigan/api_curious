@@ -1,0 +1,3651 @@
+/* Basscss Type Scale */
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_type-scale.scss */
+.h1 {
+  font-size: 2rem;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_type-scale.scss */
+.h2 {
+  font-size: 1.5rem;
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_type-scale.scss */
+.h3 {
+  font-size: 1.25rem;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_type-scale.scss */
+.h4 {
+  font-size: 1rem;
+}
+
+/* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_type-scale.scss */
+.h5 {
+  font-size: 0.875rem;
+}
+
+/* line 26, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_type-scale.scss */
+.h6 {
+  font-size: 0.75rem;
+}
+
+/* Basscss Typography */
+/* line 17, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.font-family-inherit {
+  font-family: inherit;
+}
+
+/* line 19, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.font-size-inherit {
+  font-size: inherit;
+}
+
+/* line 21, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 25, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.regular {
+  font-weight: normal;
+}
+
+/* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 29, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* line 31, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 33, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.center {
+  text-align: center;
+}
+
+/* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.justify {
+  text-align: justify;
+}
+
+/* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.break-word {
+  word-wrap: break-word;
+}
+
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.line-height-1 {
+  line-height: 1;
+}
+
+/* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.line-height-2 {
+  line-height: 1.125;
+}
+
+/* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.line-height-3 {
+  line-height: 1.25;
+}
+
+/* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.line-height-4 {
+  line-height: 1.5;
+}
+
+/* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.list-style-none {
+  list-style: none;
+}
+
+/* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 62, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_typography.scss */
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Basscss Layout */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.inline {
+  display: inline;
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.block {
+  display: block;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.table {
+  display: table;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.table-cell {
+  display: table-cell;
+}
+
+/* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 26, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.overflow-auto {
+  overflow: auto;
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 36, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.left {
+  float: left;
+}
+
+/* line 40, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.right {
+  float: right;
+}
+
+/* line 42, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.fit {
+  max-width: 100%;
+}
+
+/* line 44, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.max-width-1 {
+  max-width: 24rem;
+}
+
+/* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.max-width-2 {
+  max-width: 32rem;
+}
+
+/* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.max-width-3 {
+  max-width: 48rem;
+}
+
+/* line 50, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.max-width-4 {
+  max-width: 64rem;
+}
+
+/* line 52, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_layout.scss */
+.border-box {
+  box-sizing: border-box;
+}
+
+/* Basscss Align */
+/* line 10, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_align.scss */
+.align-baseline {
+  vertical-align: baseline;
+}
+
+/* line 12, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_align.scss */
+.align-top {
+  vertical-align: top;
+}
+
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_align.scss */
+.align-middle {
+  vertical-align: middle;
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_align.scss */
+.align-bottom {
+  vertical-align: bottom;
+}
+
+/* Basscss Margin */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.m0 {
+  margin: 0;
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mt0 {
+  margin-top: 0;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mr0 {
+  margin-right: 0;
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mb0 {
+  margin-bottom: 0;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.ml0 {
+  margin-left: 0;
+}
+
+/* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mx0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 26, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.my0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.m1 {
+  margin: 0.5rem;
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mt1 {
+  margin-top: 0.5rem;
+}
+
+/* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mr1 {
+  margin-right: 0.5rem;
+}
+
+/* line 34, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mb1 {
+  margin-bottom: 0.5rem;
+}
+
+/* line 36, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.ml1 {
+  margin-left: 0.5rem;
+}
+
+/* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mx1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* line 40, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.my1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* line 42, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.m2 {
+  margin: 1rem;
+}
+
+/* line 44, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mt2 {
+  margin-top: 1rem;
+}
+
+/* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mr2 {
+  margin-right: 1rem;
+}
+
+/* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mb2 {
+  margin-bottom: 1rem;
+}
+
+/* line 50, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.ml2 {
+  margin-left: 1rem;
+}
+
+/* line 52, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mx2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.my2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 56, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.m3 {
+  margin: 2rem;
+}
+
+/* line 58, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mt3 {
+  margin-top: 2rem;
+}
+
+/* line 60, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mr3 {
+  margin-right: 2rem;
+}
+
+/* line 62, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mb3 {
+  margin-bottom: 2rem;
+}
+
+/* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.ml3 {
+  margin-left: 2rem;
+}
+
+/* line 66, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mx3 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* line 68, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.my3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 70, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.m4 {
+  margin: 4rem;
+}
+
+/* line 72, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mt4 {
+  margin-top: 4rem;
+}
+
+/* line 74, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mr4 {
+  margin-right: 4rem;
+}
+
+/* line 76, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+/* line 78, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.ml4 {
+  margin-left: 4rem;
+}
+
+/* line 80, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mx4 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+/* line 82, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.my4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* line 84, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mxn1 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+/* line 86, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mxn2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+/* line 88, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mxn3 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+/* line 90, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mxn4 {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+/* line 92, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.ml-auto {
+  margin-left: auto;
+}
+
+/* line 94, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mr-auto {
+  margin-right: auto;
+}
+
+/* line 96, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_margin.scss */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Basscss Padding */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.p0 {
+  padding: 0;
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pt0 {
+  padding-top: 0;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pr0 {
+  padding-right: 0;
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pb0 {
+  padding-bottom: 0;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pl0 {
+  padding-left: 0;
+}
+
+/* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.px0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 26, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.py0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.p1 {
+  padding: 0.5rem;
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pt1 {
+  padding-top: 0.5rem;
+}
+
+/* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pr1 {
+  padding-right: 0.5rem;
+}
+
+/* line 34, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pb1 {
+  padding-bottom: 0.5rem;
+}
+
+/* line 36, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pl1 {
+  padding-left: 0.5rem;
+}
+
+/* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.py1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* line 40, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.px1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* line 42, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.p2 {
+  padding: 1rem;
+}
+
+/* line 44, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pt2 {
+  padding-top: 1rem;
+}
+
+/* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pr2 {
+  padding-right: 1rem;
+}
+
+/* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pb2 {
+  padding-bottom: 1rem;
+}
+
+/* line 50, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pl2 {
+  padding-left: 1rem;
+}
+
+/* line 52, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.py2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 56, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.p3 {
+  padding: 2rem;
+}
+
+/* line 58, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pt3 {
+  padding-top: 2rem;
+}
+
+/* line 60, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pr3 {
+  padding-right: 2rem;
+}
+
+/* line 62, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pb3 {
+  padding-bottom: 2rem;
+}
+
+/* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pl3 {
+  padding-left: 2rem;
+}
+
+/* line 66, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 68, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.px3 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* line 70, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.p4 {
+  padding: 4rem;
+}
+
+/* line 72, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pt4 {
+  padding-top: 4rem;
+}
+
+/* line 74, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pr4 {
+  padding-right: 4rem;
+}
+
+/* line 76, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pb4 {
+  padding-bottom: 4rem;
+}
+
+/* line 78, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.pl4 {
+  padding-left: 4rem;
+}
+
+/* line 80, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* line 82, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_padding.scss */
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* Basscss Grid */
+/* line 13, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-right {
+  float: right;
+  box-sizing: border-box;
+}
+
+/* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-1 {
+  width: 8.3333333333%;
+}
+
+/* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-2 {
+  width: 16.6666666667%;
+}
+
+/* line 31, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-4 {
+  width: 33.3333333333%;
+}
+
+/* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-5 {
+  width: 41.6666666667%;
+}
+
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-7 {
+  width: 58.3333333333%;
+}
+
+/* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-8 {
+  width: 66.6666666667%;
+}
+
+/* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 59, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-10 {
+  width: 83.3333333333%;
+}
+
+/* line 63, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-11 {
+  width: 91.6666666667%;
+}
+
+/* line 67, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+.col-12 {
+  width: 100%;
+}
+
+@media (min-width: 40em) {
+  /* line 73, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* line 78, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  /* line 83, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 87, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 91, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-3 {
+    width: 25%;
+  }
+
+  /* line 95, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 99, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 103, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-6 {
+    width: 50%;
+  }
+
+  /* line 107, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 111, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 115, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-9 {
+    width: 75%;
+  }
+
+  /* line 119, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 123, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 127, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .sm-col-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 52em) {
+  /* line 135, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* line 140, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  /* line 145, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 149, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 153, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-3 {
+    width: 25%;
+  }
+
+  /* line 157, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 161, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 165, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-6 {
+    width: 50%;
+  }
+
+  /* line 169, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 173, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 177, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-9 {
+    width: 75%;
+  }
+
+  /* line 181, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 185, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 189, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .md-col-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 64em) {
+  /* line 197, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* line 202, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  /* line 207, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 211, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 215, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-3 {
+    width: 25%;
+  }
+
+  /* line 219, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 223, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 227, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-6 {
+    width: 50%;
+  }
+
+  /* line 231, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 235, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 239, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-9 {
+    width: 75%;
+  }
+
+  /* line 243, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 247, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 251, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_grid.scss */
+  .lg-col-12 {
+    width: 100%;
+  }
+}
+/* line 12, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.flex {
+  display: flex;
+}
+
+@media (min-width: 40em) {
+  /* line 15, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+  .sm-flex {
+    display: flex;
+  }
+}
+@media (min-width: 52em) {
+  /* line 19, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+  .md-flex {
+    display: flex;
+  }
+}
+@media (min-width: 64em) {
+  /* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+  .lg-flex {
+    display: flex;
+  }
+}
+/* line 26, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.flex-column {
+  flex-direction: column;
+}
+
+/* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.items-start {
+  align-items: flex-start;
+}
+
+/* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.items-end {
+  align-items: flex-end;
+}
+
+/* line 34, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.items-center {
+  align-items: center;
+}
+
+/* line 36, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.items-baseline {
+  align-items: baseline;
+}
+
+/* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.items-stretch {
+  align-items: stretch;
+}
+
+/* line 40, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.self-start {
+  align-self: flex-start;
+}
+
+/* line 42, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.self-end {
+  align-self: flex-end;
+}
+
+/* line 44, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.self-center {
+  align-self: center;
+}
+
+/* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.self-baseline {
+  align-self: baseline;
+}
+
+/* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.self-stretch {
+  align-self: stretch;
+}
+
+/* line 50, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.justify-start {
+  justify-content: flex-start;
+}
+
+/* line 52, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.justify-end {
+  justify-content: flex-end;
+}
+
+/* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.justify-center {
+  justify-content: center;
+}
+
+/* line 56, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.justify-between {
+  justify-content: space-between;
+}
+
+/* line 58, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.justify-around {
+  justify-content: space-around;
+}
+
+/* line 60, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.content-start {
+  align-content: flex-start;
+}
+
+/* line 62, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.content-end {
+  align-content: flex-end;
+}
+
+/* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.content-center {
+  align-content: center;
+}
+
+/* line 66, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.content-between {
+  align-content: space-between;
+}
+
+/* line 68, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.content-around {
+  align-content: space-around;
+}
+
+/* line 70, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.content-stretch {
+  align-content: stretch;
+}
+
+/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
+/* line 74, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.flex-auto {
+  flex: 1 1 auto;
+  min-width: 0;
+  /* 1 */
+  min-height: 0;
+  /* 1 */
+}
+
+/* line 80, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.flex-none {
+  flex: none;
+}
+
+/* line 82, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.order-0 {
+  order: 0;
+}
+
+/* line 84, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.order-1 {
+  order: 1;
+}
+
+/* line 86, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.order-2 {
+  order: 2;
+}
+
+/* line 88, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.order-3 {
+  order: 3;
+}
+
+/* line 90, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_flexbox.scss */
+.order-last {
+  order: 99999;
+}
+
+/* Basscss Position */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.relative {
+  position: relative;
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.top-0 {
+  top: 0;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.right-0 {
+  right: 0;
+}
+
+/* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.bottom-0 {
+  bottom: 0;
+}
+
+/* line 26, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.left-0 {
+  left: 0;
+}
+
+/* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.z1 {
+  z-index: 1;
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.z2 {
+  z-index: 2;
+}
+
+/* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.z3 {
+  z-index: 3;
+}
+
+/* line 34, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_position.scss */
+.z4 {
+  z-index: 4;
+}
+
+/* Basscss Border */
+/* line 12, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* line 17, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.border-top {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.border-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+/* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+/* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.border-left {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+/* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.border-none {
+  border: 0;
+}
+
+/* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.rounded {
+  border-radius: 3px;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.circle {
+  border-radius: 50%;
+}
+
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.rounded-top {
+  border-radius: 3px 3px 0 0;
+}
+
+/* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.rounded-right {
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.rounded-bottom {
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.rounded-left {
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border.scss */
+.not-rounded {
+  border-radius: 0;
+}
+
+/* Basscss Hide */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_hide.scss */
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (max-width: 40em) {
+  /* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_hide.scss */
+  .xs-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 40em) and (max-width: 52em) {
+  /* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_hide.scss */
+  .sm-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 52em) and (max-width: 64em) {
+  /* line 31, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_hide.scss */
+  .md-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 64em) {
+  /* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_hide.scss */
+  .lg-hide {
+    display: none !important;
+  }
+}
+/* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_hide.scss */
+.display-none {
+  display: none !important;
+}
+
+/* Basscss All */
+/* line 10, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_all.scss */
+.all-initial {
+  all: initial;
+}
+
+/* line 12, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_all.scss */
+.all-unset {
+  all: unset;
+}
+
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_all.scss */
+.all-inherit {
+  all: inherit;
+}
+
+/* Basscss Background Colors */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+/* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-black {
+  background-color: #111;
+}
+
+/* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-gray {
+  background-color: #aaa;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-silver {
+  background-color: #ddd;
+}
+
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-white {
+  background-color: #fff;
+}
+
+/* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-aqua {
+  background-color: #7fdbff;
+}
+
+/* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-blue {
+  background-color: #0074d9;
+}
+
+/* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-navy {
+  background-color: #001f3f;
+}
+
+/* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-teal {
+  background-color: #39cccc;
+}
+
+/* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-green {
+  background-color: #2ecc40;
+}
+
+/* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-olive {
+  background-color: #3d9970;
+}
+
+/* line 57, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-lime {
+  background-color: #01ff70;
+}
+
+/* line 59, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-yellow {
+  background-color: #ffdc00;
+}
+
+/* line 61, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-orange {
+  background-color: #ff851b;
+}
+
+/* line 63, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-red {
+  background-color: #ff4136;
+}
+
+/* line 65, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-fuchsia {
+  background-color: #f012be;
+}
+
+/* line 67, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-purple {
+  background-color: #b10dc9;
+}
+
+/* line 69, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-colors.scss */
+.bg-maroon {
+  background-color: #85144b;
+}
+
+/* Basscss Background Images */
+/* line 10, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-cover {
+  background-size: cover;
+}
+
+/* line 12, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-contain {
+  background-size: contain;
+}
+
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-center {
+  background-position: center;
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-top {
+  background-position: top;
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-right {
+  background-position: right;
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-bottom {
+  background-position: bottom;
+}
+
+/* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_background-images.scss */
+.bg-left {
+  background-position: left;
+}
+
+/* Basscss Border Colors */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+/* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-black {
+  border-color: #111;
+}
+
+/* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-gray {
+  border-color: #aaa;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-silver {
+  border-color: #ddd;
+}
+
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-white {
+  border-color: #fff;
+}
+
+/* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-aqua {
+  border-color: #7fdbff;
+}
+
+/* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-blue {
+  border-color: #0074d9;
+}
+
+/* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-navy {
+  border-color: #001f3f;
+}
+
+/* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-teal {
+  border-color: #39cccc;
+}
+
+/* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-green {
+  border-color: #2ecc40;
+}
+
+/* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-olive {
+  border-color: #3d9970;
+}
+
+/* line 57, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-lime {
+  border-color: #01ff70;
+}
+
+/* line 59, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-yellow {
+  border-color: #ffdc00;
+}
+
+/* line 61, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-orange {
+  border-color: #ff851b;
+}
+
+/* line 63, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-red {
+  border-color: #ff4136;
+}
+
+/* line 65, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-fuchsia {
+  border-color: #f012be;
+}
+
+/* line 67, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-purple {
+  border-color: #b10dc9;
+}
+
+/* line 69, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_border-colors.scss */
+.border-maroon {
+  border-color: #85144b;
+}
+
+/* Basscss Btn */
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn.scss */
+.btn {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.125rem;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn.scss */
+.btn:hover {
+  text-decoration: none;
+}
+
+/* line 42, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn.scss */
+.btn:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+/* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn.scss */
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Basscss Btn Outline */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-outline.scss */
+.btn-outline,
+.btn-outline:hover {
+  border-color: currentcolor;
+}
+
+/* line 19, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-outline.scss */
+.btn-outline {
+  border-radius: 3px;
+}
+
+/* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-outline.scss */
+.btn-outline:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, 0.0625);
+}
+
+/* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-outline.scss */
+.btn-outline:active {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, 0.125), inset 0 3px 4px 0 rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.125);
+}
+
+/* line 33, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-outline.scss */
+.btn-outline:disabled,
+.btn-outline.is-disabled {
+  opacity: .5;
+}
+
+/* Basscss Btn Primary */
+/* line 17, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-primary.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #0074d9;
+  border-radius: 3px;
+}
+
+/* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-primary.scss */
+.btn-primary:hover {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, 0.0625);
+}
+
+/* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-primary.scss */
+.btn-primary:active {
+  box-shadow: inset 0 0 0 20rem rgba(0, 0, 0, 0.125), inset 0 3px 4px 0 rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.125);
+}
+
+/* line 33, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_btn-primary.scss */
+.btn-primary:disabled,
+.btn-primary.is-disabled {
+  opacity: .5;
+}
+
+/* Basscss Colors */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+/* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.black {
+  color: #111;
+}
+
+/* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.gray {
+  color: #aaa;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.silver {
+  color: #ddd;
+}
+
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.white {
+  color: #fff;
+}
+
+/* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.aqua {
+  color: #7fdbff;
+}
+
+/* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.blue {
+  color: #0074d9;
+}
+
+/* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.navy {
+  color: #001f3f;
+}
+
+/* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.teal {
+  color: #39cccc;
+}
+
+/* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.green {
+  color: #2ecc40;
+}
+
+/* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.olive {
+  color: #3d9970;
+}
+
+/* line 57, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.lime {
+  color: #01ff70;
+}
+
+/* line 59, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.yellow {
+  color: #ffdc00;
+}
+
+/* line 61, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.orange {
+  color: #ff851b;
+}
+
+/* line 63, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.red {
+  color: #ff4136;
+}
+
+/* line 65, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.fuchsia {
+  color: #f012be;
+}
+
+/* line 67, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.purple {
+  color: #b10dc9;
+}
+
+/* line 69, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.maroon {
+  color: #85144b;
+}
+
+/* line 71, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.color-inherit {
+  color: inherit;
+}
+
+/* line 73, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_colors.scss */
+.muted {
+  opacity: 0.5;
+}
+
+/* Basscss Darken */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_darken.scss */
+.bg-darken-1 {
+  background-color: rgba(0, 0, 0, 0.0625);
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_darken.scss */
+.bg-darken-2 {
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_darken.scss */
+.bg-darken-3 {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_darken.scss */
+.bg-darken-4 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Basscss Forms */
+/* line 10, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_forms.scss */
+.label {
+  font-size: .875rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+/* line 17, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_forms.scss */
+.input {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* line 29, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_forms.scss */
+.select {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_forms.scss */
+.textarea {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Basscss Highlight */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+/* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs {
+  color: white;
+  -webkit-text-size-adjust: none;
+}
+
+/* line 58, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-comment,
+.highlight-dark .diff .hljs-header,
+.highlight-dark .hljs-javadoc {
+  color: #ddd;
+  font-style: italic;
+}
+
+/* line 65, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-keyword,
+.highlight-dark .css .rule .hljs-keyword,
+.highlight-dark .hljs-winutils,
+.highlight-dark .nginx .hljs-title,
+.highlight-dark .hljs-subst,
+.highlight-dark .hljs-request,
+.highlight-dark .hljs-status {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 76, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-number,
+.highlight-dark .hljs-hexcolor,
+.highlight-dark .ruby .hljs-constant {
+  color: #01ff70;
+}
+
+/* line 82, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-string,
+.highlight-dark .hljs-tag .hljs-value,
+.highlight-dark .hljs-phpdoc,
+.highlight-dark .hljs-dartdoc,
+.highlight-dark .tex .hljs-formula {
+  color: #ff4136;
+}
+
+/* line 90, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: #ff4136;
+  font-weight: bold;
+}
+
+/* line 97, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-list .hljs-keyword,
+.highlight-dark .hljs-subst {
+  font-weight: normal;
+}
+
+/* line 102, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-class .hljs-title,
+.highlight-dark .hljs-type,
+.highlight-dark .vhdl .hljs-literal,
+.highlight-dark .tex .hljs-command {
+  color: #7fdbff;
+  font-weight: bold;
+}
+
+/* line 110, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-tag,
+.highlight-dark .hljs-tag .hljs-title,
+.highlight-dark .hljs-rules .hljs-property,
+.highlight-dark .django .hljs-tag .hljs-keyword {
+  color: #7fdbff;
+  font-weight: normal;
+}
+
+/* line 118, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-attribute,
+.highlight-dark .hljs-variable,
+.highlight-dark .lisp .hljs-body {
+  color: #01ff70;
+}
+
+/* line 124, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-regexp {
+  color: #01ff70;
+}
+
+/* line 128, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-symbol,
+.highlight-dark .ruby .hljs-symbol .hljs-string,
+.highlight-dark .lisp .hljs-keyword,
+.highlight-dark .clojure .hljs-keyword,
+.highlight-dark .scheme .hljs-keyword,
+.highlight-dark .tex .hljs-special,
+.highlight-dark .hljs-prompt {
+  color: #f012be;
+}
+
+/* line 138, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-built_in {
+  color: #7fdbff;
+}
+
+/* line 142, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-preprocessor,
+.highlight-dark .hljs-pragma,
+.highlight-dark .hljs-pi,
+.highlight-dark .hljs-doctype,
+.highlight-dark .hljs-shebang,
+.highlight-dark .hljs-cdata {
+  color: #ddd;
+  font-weight: bold;
+}
+
+/* line 152, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-deletion {
+  background: #f012be;
+}
+
+/* line 156, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-addition {
+  background: #01ff70;
+}
+
+/* line 160, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .diff .hljs-change {
+  background: #7fdbff;
+}
+
+/* line 164, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight-dark.scss */
+.highlight-dark .hljs-chunk {
+  color: #aaa;
+}
+
+/* Basscss Highlight */
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+/* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs {
+  -webkit-text-size-adjust: none;
+}
+
+/* line 57, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-comment,
+.diff .hljs-header,
+.hljs-javadoc {
+  color: #ddd;
+  font-style: italic;
+}
+
+/* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 75, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: #01ff70;
+}
+
+/* line 81, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.tex .hljs-formula {
+  color: #ff4136;
+}
+
+/* line 89, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: #ff4136;
+  font-weight: bold;
+}
+
+/* line 96, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-list .hljs-keyword,
+.hljs-subst {
+  font-weight: normal;
+}
+
+/* line 101, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-class .hljs-title,
+.hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: #7fdbff;
+  font-weight: bold;
+}
+
+/* line 109, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rules .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: #7fdbff;
+  font-weight: normal;
+}
+
+/* line 117, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body {
+  color: #01ff70;
+}
+
+/* line 123, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-regexp {
+  color: #01ff70;
+}
+
+/* line 127, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.clojure .hljs-keyword,
+.scheme .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: #f012be;
+}
+
+/* line 137, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-built_in {
+  color: #7fdbff;
+}
+
+/* line 141, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #ddd;
+  font-weight: bold;
+}
+
+/* line 151, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-deletion {
+  background: #f012be;
+}
+
+/* line 155, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-addition {
+  background: #01ff70;
+}
+
+/* line 159, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.diff .hljs-change {
+  background: #7fdbff;
+}
+
+/* line 163, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_highlight.scss */
+.hljs-chunk {
+  color: #aaa;
+}
+
+/* Mapped colors */
+/* Basscss Input Range */
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range {
+  vertical-align: middle;
+  background-color: transparent;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: inherit;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range::-webkit-slider-thumb {
+  position: relative;
+  width: 0.5rem;
+  height: 1.25rem;
+  cursor: pointer;
+  margin-top: -0.5rem;
+  border-radius: 3px;
+  background-color: currentcolor;
+  -webkit-appearance: none;
+}
+
+/* Touch screen friendly pseudo element */
+/* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range::-webkit-slider-thumb:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.5rem;
+  left: -0.875rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  opacity: 0;
+}
+
+/* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range::-moz-range-thumb {
+  width: 0.5rem;
+  height: 1.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  border-color: transparent;
+  border-width: 0;
+  background-color: currentcolor;
+}
+
+/* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range::-webkit-slider-runnable-track {
+  height: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* line 71, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range::-moz-range-track {
+  height: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* line 78, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_input-range.scss */
+.input-range:focus {
+  outline: none;
+}
+
+/* Basscss Lighten */
+/* line 14, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_lighten.scss */
+.bg-lighten-1 {
+  background-color: rgba(255, 255, 255, 0.0625);
+}
+
+/* line 16, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_lighten.scss */
+.bg-lighten-2 {
+  background-color: rgba(255, 255, 255, 0.125);
+}
+
+/* line 18, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_lighten.scss */
+.bg-lighten-3 {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_lighten.scss */
+.bg-lighten-4 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Basscss Media Object */
+/* line 15, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+.media,
+.sm-media,
+.md-media,
+.lg-media {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+/* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+.media {
+  display: flex;
+}
+
+/* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+.media-center {
+  align-items: center;
+}
+
+/* line 31, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+.media-bottom {
+  align-items: flex-end;
+}
+
+/* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+.media-img,
+.media-body {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+.media-body {
+  flex: 1 1 auto;
+}
+
+@media (min-width: 40em) {
+  /* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+  .sm-media {
+    display: flex;
+  }
+}
+@media (min-width: 52em) {
+  /* line 50, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+  .md-media {
+    display: flex;
+  }
+}
+@media (min-width: 64em) {
+  /* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_media-object.scss */
+  .lg-media {
+    display: flex;
+  }
+}
+/* Basscss Progress */
+/* line 13, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_progress.scss */
+.progress {
+  display: block;
+  width: 100%;
+  height: 0.5625rem;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.125);
+  border: 0;
+  border-radius: 10000px;
+  -webkit-appearance: none;
+}
+
+/* line 25, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_progress.scss */
+.progress::-webkit-progress-bar {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+/* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_progress.scss */
+.progress::-webkit-progress-value {
+  -webkit-appearance: none;
+  background-color: currentcolor;
+}
+
+/* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_progress.scss */
+.progress::-moz-progress-bar {
+  background-color: currentcolor;
+}
+
+/* Basscss Responsive Margin */
+@media (min-width: 40em) {
+  /* line 19, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-m0 {
+    margin: 0;
+  }
+
+  /* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mt0 {
+    margin-top: 0;
+  }
+
+  /* line 21, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mr0 {
+    margin-right: 0;
+  }
+
+  /* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mb0 {
+    margin-bottom: 0;
+  }
+
+  /* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-ml0 {
+    margin-left: 0;
+  }
+
+  /* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 25, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-m1 {
+    margin: 0.5rem;
+  }
+
+  /* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mt1 {
+    margin-top: 0.5rem;
+  }
+
+  /* line 29, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mr1 {
+    margin-right: 0.5rem;
+  }
+
+  /* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mb1 {
+    margin-bottom: 0.5rem;
+  }
+
+  /* line 31, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-ml1 {
+    margin-left: 0.5rem;
+  }
+
+  /* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mx1 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  /* line 33, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-my1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-m2 {
+    margin: 1rem;
+  }
+
+  /* line 36, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mt2 {
+    margin-top: 1rem;
+  }
+
+  /* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mr2 {
+    margin-right: 1rem;
+  }
+
+  /* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mb2 {
+    margin-bottom: 1rem;
+  }
+
+  /* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-ml2 {
+    margin-left: 1rem;
+  }
+
+  /* line 40, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mx2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-my2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-m3 {
+    margin: 2rem;
+  }
+
+  /* line 44, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mt3 {
+    margin-top: 2rem;
+  }
+
+  /* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mr3 {
+    margin-right: 2rem;
+  }
+
+  /* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mb3 {
+    margin-bottom: 2rem;
+  }
+
+  /* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-ml3 {
+    margin-left: 2rem;
+  }
+
+  /* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mx3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  /* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-my3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-m4 {
+    margin: 4rem;
+  }
+
+  /* line 52, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mt4 {
+    margin-top: 4rem;
+  }
+
+  /* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mr4 {
+    margin-right: 4rem;
+  }
+
+  /* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mb4 {
+    margin-bottom: 4rem;
+  }
+
+  /* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-ml4 {
+    margin-left: 4rem;
+  }
+
+  /* line 56, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mx4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  /* line 57, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-my4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  /* line 59, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mxn1 {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+
+  /* line 60, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  /* line 61, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  /* line 62, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mxn4 {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+
+  /* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-ml-auto {
+    margin-left: auto;
+  }
+
+  /* line 65, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mr-auto {
+    margin-right: auto;
+  }
+
+  /* line 66, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .sm-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 52em) {
+  /* line 72, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-m0 {
+    margin: 0;
+  }
+
+  /* line 73, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mt0 {
+    margin-top: 0;
+  }
+
+  /* line 74, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mr0 {
+    margin-right: 0;
+  }
+
+  /* line 75, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mb0 {
+    margin-bottom: 0;
+  }
+
+  /* line 76, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-ml0 {
+    margin-left: 0;
+  }
+
+  /* line 77, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 78, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* line 80, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-m1 {
+    margin: 0.5rem;
+  }
+
+  /* line 81, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mt1 {
+    margin-top: 0.5rem;
+  }
+
+  /* line 82, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mr1 {
+    margin-right: 0.5rem;
+  }
+
+  /* line 83, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mb1 {
+    margin-bottom: 0.5rem;
+  }
+
+  /* line 84, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-ml1 {
+    margin-left: 0.5rem;
+  }
+
+  /* line 85, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mx1 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  /* line 86, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-my1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* line 88, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-m2 {
+    margin: 1rem;
+  }
+
+  /* line 89, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mt2 {
+    margin-top: 1rem;
+  }
+
+  /* line 90, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mr2 {
+    margin-right: 1rem;
+  }
+
+  /* line 91, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mb2 {
+    margin-bottom: 1rem;
+  }
+
+  /* line 92, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-ml2 {
+    margin-left: 1rem;
+  }
+
+  /* line 93, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mx2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* line 94, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-my2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* line 96, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-m3 {
+    margin: 2rem;
+  }
+
+  /* line 97, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mt3 {
+    margin-top: 2rem;
+  }
+
+  /* line 98, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mr3 {
+    margin-right: 2rem;
+  }
+
+  /* line 99, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mb3 {
+    margin-bottom: 2rem;
+  }
+
+  /* line 100, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-ml3 {
+    margin-left: 2rem;
+  }
+
+  /* line 101, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mx3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  /* line 102, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-my3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* line 104, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-m4 {
+    margin: 4rem;
+  }
+
+  /* line 105, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mt4 {
+    margin-top: 4rem;
+  }
+
+  /* line 106, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mr4 {
+    margin-right: 4rem;
+  }
+
+  /* line 107, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mb4 {
+    margin-bottom: 4rem;
+  }
+
+  /* line 108, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-ml4 {
+    margin-left: 4rem;
+  }
+
+  /* line 109, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mx4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  /* line 110, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-my4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  /* line 112, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mxn1 {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+
+  /* line 113, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  /* line 114, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  /* line 115, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mxn4 {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+
+  /* line 117, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-ml-auto {
+    margin-left: auto;
+  }
+
+  /* line 118, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mr-auto {
+    margin-right: auto;
+  }
+
+  /* line 119, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .md-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 64em) {
+  /* line 125, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-m0 {
+    margin: 0;
+  }
+
+  /* line 126, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mt0 {
+    margin-top: 0;
+  }
+
+  /* line 127, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mr0 {
+    margin-right: 0;
+  }
+
+  /* line 128, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mb0 {
+    margin-bottom: 0;
+  }
+
+  /* line 129, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-ml0 {
+    margin-left: 0;
+  }
+
+  /* line 130, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 131, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* line 133, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-m1 {
+    margin: 0.5rem;
+  }
+
+  /* line 134, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mt1 {
+    margin-top: 0.5rem;
+  }
+
+  /* line 135, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mr1 {
+    margin-right: 0.5rem;
+  }
+
+  /* line 136, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mb1 {
+    margin-bottom: 0.5rem;
+  }
+
+  /* line 137, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-ml1 {
+    margin-left: 0.5rem;
+  }
+
+  /* line 138, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mx1 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  /* line 139, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-my1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* line 141, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-m2 {
+    margin: 1rem;
+  }
+
+  /* line 142, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mt2 {
+    margin-top: 1rem;
+  }
+
+  /* line 143, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mr2 {
+    margin-right: 1rem;
+  }
+
+  /* line 144, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mb2 {
+    margin-bottom: 1rem;
+  }
+
+  /* line 145, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-ml2 {
+    margin-left: 1rem;
+  }
+
+  /* line 146, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mx2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* line 147, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-my2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* line 149, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-m3 {
+    margin: 2rem;
+  }
+
+  /* line 150, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mt3 {
+    margin-top: 2rem;
+  }
+
+  /* line 151, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mr3 {
+    margin-right: 2rem;
+  }
+
+  /* line 152, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mb3 {
+    margin-bottom: 2rem;
+  }
+
+  /* line 153, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-ml3 {
+    margin-left: 2rem;
+  }
+
+  /* line 154, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mx3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  /* line 155, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-my3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* line 157, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-m4 {
+    margin: 4rem;
+  }
+
+  /* line 158, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mt4 {
+    margin-top: 4rem;
+  }
+
+  /* line 159, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mr4 {
+    margin-right: 4rem;
+  }
+
+  /* line 160, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mb4 {
+    margin-bottom: 4rem;
+  }
+
+  /* line 161, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-ml4 {
+    margin-left: 4rem;
+  }
+
+  /* line 162, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mx4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  /* line 163, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-my4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  /* line 165, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mxn1 {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+
+  /* line 166, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  /* line 167, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  /* line 168, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mxn4 {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+
+  /* line 170, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-ml-auto {
+    margin-left: auto;
+  }
+
+  /* line 171, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mr-auto {
+    margin-right: auto;
+  }
+
+  /* line 172, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-margin.scss */
+  .lg-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Basscss Responsive Padding */
+@media (min-width: 40em) {
+  /* line 19, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-p0 {
+    padding: 0;
+  }
+
+  /* line 20, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pt0 {
+    padding-top: 0;
+  }
+
+  /* line 21, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pr0 {
+    padding-right: 0;
+  }
+
+  /* line 22, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pb0 {
+    padding-bottom: 0;
+  }
+
+  /* line 23, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pl0 {
+    padding-left: 0;
+  }
+
+  /* line 24, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 25, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* line 27, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-p1 {
+    padding: 0.5rem;
+  }
+
+  /* line 28, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pt1 {
+    padding-top: 0.5rem;
+  }
+
+  /* line 29, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pr1 {
+    padding-right: 0.5rem;
+  }
+
+  /* line 30, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pb1 {
+    padding-bottom: 0.5rem;
+  }
+
+  /* line 31, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pl1 {
+    padding-left: 0.5rem;
+  }
+
+  /* line 32, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-px1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* line 33, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-py1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* line 35, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-p2 {
+    padding: 1rem;
+  }
+
+  /* line 36, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pt2 {
+    padding-top: 1rem;
+  }
+
+  /* line 37, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pr2 {
+    padding-right: 1rem;
+  }
+
+  /* line 38, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pb2 {
+    padding-bottom: 1rem;
+  }
+
+  /* line 39, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pl2 {
+    padding-left: 1rem;
+  }
+
+  /* line 40, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* line 41, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* line 43, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-p3 {
+    padding: 2rem;
+  }
+
+  /* line 44, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pt3 {
+    padding-top: 2rem;
+  }
+
+  /* line 45, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pr3 {
+    padding-right: 2rem;
+  }
+
+  /* line 46, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pb3 {
+    padding-bottom: 2rem;
+  }
+
+  /* line 47, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pl3 {
+    padding-left: 2rem;
+  }
+
+  /* line 48, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-px3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* line 49, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-py3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* line 51, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-p4 {
+    padding: 4rem;
+  }
+
+  /* line 52, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pt4 {
+    padding-top: 4rem;
+  }
+
+  /* line 53, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pr4 {
+    padding-right: 4rem;
+  }
+
+  /* line 54, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pb4 {
+    padding-bottom: 4rem;
+  }
+
+  /* line 55, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-pl4 {
+    padding-left: 4rem;
+  }
+
+  /* line 56, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  /* line 57, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .sm-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (min-width: 52em) {
+  /* line 63, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-p0 {
+    padding: 0;
+  }
+
+  /* line 64, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pt0 {
+    padding-top: 0;
+  }
+
+  /* line 65, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pr0 {
+    padding-right: 0;
+  }
+
+  /* line 66, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pb0 {
+    padding-bottom: 0;
+  }
+
+  /* line 67, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pl0 {
+    padding-left: 0;
+  }
+
+  /* line 68, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 69, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* line 71, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-p1 {
+    padding: 0.5rem;
+  }
+
+  /* line 72, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pt1 {
+    padding-top: 0.5rem;
+  }
+
+  /* line 73, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pr1 {
+    padding-right: 0.5rem;
+  }
+
+  /* line 74, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pb1 {
+    padding-bottom: 0.5rem;
+  }
+
+  /* line 75, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pl1 {
+    padding-left: 0.5rem;
+  }
+
+  /* line 76, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-px1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* line 77, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-py1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* line 79, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-p2 {
+    padding: 1rem;
+  }
+
+  /* line 80, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pt2 {
+    padding-top: 1rem;
+  }
+
+  /* line 81, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pr2 {
+    padding-right: 1rem;
+  }
+
+  /* line 82, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pb2 {
+    padding-bottom: 1rem;
+  }
+
+  /* line 83, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pl2 {
+    padding-left: 1rem;
+  }
+
+  /* line 84, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* line 85, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* line 87, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-p3 {
+    padding: 2rem;
+  }
+
+  /* line 88, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pt3 {
+    padding-top: 2rem;
+  }
+
+  /* line 89, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pr3 {
+    padding-right: 2rem;
+  }
+
+  /* line 90, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pb3 {
+    padding-bottom: 2rem;
+  }
+
+  /* line 91, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pl3 {
+    padding-left: 2rem;
+  }
+
+  /* line 92, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-px3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* line 93, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-py3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* line 95, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-p4 {
+    padding: 4rem;
+  }
+
+  /* line 96, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pt4 {
+    padding-top: 4rem;
+  }
+
+  /* line 97, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pr4 {
+    padding-right: 4rem;
+  }
+
+  /* line 98, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pb4 {
+    padding-bottom: 4rem;
+  }
+
+  /* line 99, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-pl4 {
+    padding-left: 4rem;
+  }
+
+  /* line 100, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  /* line 101, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .md-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (min-width: 64em) {
+  /* line 107, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-p0 {
+    padding: 0;
+  }
+
+  /* line 108, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pt0 {
+    padding-top: 0;
+  }
+
+  /* line 109, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pr0 {
+    padding-right: 0;
+  }
+
+  /* line 110, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pb0 {
+    padding-bottom: 0;
+  }
+
+  /* line 111, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pl0 {
+    padding-left: 0;
+  }
+
+  /* line 112, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 113, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* line 115, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-p1 {
+    padding: 0.5rem;
+  }
+
+  /* line 116, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pt1 {
+    padding-top: 0.5rem;
+  }
+
+  /* line 117, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pr1 {
+    padding-right: 0.5rem;
+  }
+
+  /* line 118, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pb1 {
+    padding-bottom: 0.5rem;
+  }
+
+  /* line 119, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pl1 {
+    padding-left: 0.5rem;
+  }
+
+  /* line 120, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-px1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* line 121, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-py1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* line 123, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-p2 {
+    padding: 1rem;
+  }
+
+  /* line 124, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pt2 {
+    padding-top: 1rem;
+  }
+
+  /* line 125, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pr2 {
+    padding-right: 1rem;
+  }
+
+  /* line 126, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pb2 {
+    padding-bottom: 1rem;
+  }
+
+  /* line 127, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pl2 {
+    padding-left: 1rem;
+  }
+
+  /* line 128, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* line 129, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* line 131, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-p3 {
+    padding: 2rem;
+  }
+
+  /* line 132, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pt3 {
+    padding-top: 2rem;
+  }
+
+  /* line 133, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pr3 {
+    padding-right: 2rem;
+  }
+
+  /* line 134, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pb3 {
+    padding-bottom: 2rem;
+  }
+
+  /* line 135, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pl3 {
+    padding-left: 2rem;
+  }
+
+  /* line 136, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-px3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* line 137, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-py3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /* line 139, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-p4 {
+    padding: 4rem;
+  }
+
+  /* line 140, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pt4 {
+    padding-top: 4rem;
+  }
+
+  /* line 141, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pr4 {
+    padding-right: 4rem;
+  }
+
+  /* line 142, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pb4 {
+    padding-bottom: 4rem;
+  }
+
+  /* line 143, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-pl4 {
+    padding-left: 4rem;
+  }
+
+  /* line 144, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  /* line 145, /usr/local/var/rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/basscss-rails-4.1.0/app/assets/stylesheets/basscss/_responsive-padding.scss */
+  .lg-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+/* line 3, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+body {
+  font-family: "Abel", sans-serif;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+/* line 9, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+body main {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* line 16, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+img {
+  border-radius: 10px;
+}
+
+/* line 20, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 26, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* line 31, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 37, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+footer {
+  position: absolute;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #181818;
+}
+/* line 45, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/base.scss */
+footer .footer-link-text {
+  color: whitesmoke;
+}
+
+/* line 3, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/profile.scss */
+.profile-image {
+  width: 230px;
+  padding: none;
+  margin: none;
+}
+
+/* line 3, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/navbar.scss */
+.navbar {
+  font-family: "Roboto", sans-serif;
+  background-color: #181818;
+}
+/* line 6, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/navbar.scss */
+.navbar .navflex {
+  display: flex;
+  align-items: baseline;
+}
+/* line 9, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/navbar.scss */
+.navbar .navflex .logout-button {
+  flex-grow: 1;
+  text-align: right;
+}
+
+/* line 3, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/buttons_links.scss */
+.fa-github {
+  font-size: 30px;
+}
+
+/* line 7, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/buttons_links.scss */
+.fa-star {
+  color: #FFD700;
+}
+
+/* line 11, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/buttons_links.scss */
+.fa-gem {
+  color: red;
+}
+
+/* line 15, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/buttons_links.scss */
+.link-reset {
+  color: white;
+}
+
+/* line 19, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/buttons_links.scss */
+.dashboard-active {
+  border-bottom: 3px solid #a50404;
+}
+
+/* line 3, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/tables_and_rows.scss */
+.commit-row {
+  border-bottom: 2px solid whitesmoke;
+}
+
+/* line 7, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/tables_and_rows.scss */
+.follower-table {
+  border-right: 2px solid whitesmoke;
+}
+
+/* line 11, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/tables_and_rows.scss */
+.follower-table-text {
+  margin-left: 5%;
+}
+
+/* line 15, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/tables_and_rows.scss */
+.repo-link-text {
+  color: royalblue;
+}
+
+/* line 3, /Users/Keegan/turing/3module/api_curious/app/assets/stylesheets/images.scss */
+.follower-image {
+  width: 50px;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *= require basscss/basscss
+ *= require basscss/basscss-addons
+ *= require_tree .
+ *= require_self
+ */

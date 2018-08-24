@@ -5,7 +5,9 @@ describe Repo, type: :model do
     data = {
               name: "apicurious",
               language: "Ruby",
-              stargazers_count: 1
+              stargazers_count: 1,
+              html_url: "oijasd",
+              created_at: "12-18-18"
             }
 
     repo = Repo.new(data)
