@@ -10,7 +10,6 @@ describe "a user logs in" do
 
       date = 1.week.ago.strftime("%Y-%m-%d")
 
-
       json_response_2 = File.open("./fixtures/github_recent_commits.json")
       stub_request(:get, "https://api.github.com/search/commits?q=committer-name:KeeganCorrigan+committer-date:>#{date}").to_return(status: 200, body: json_response_2)
 

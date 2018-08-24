@@ -1,4 +1,6 @@
 class GithubService
+  include ApplicationModule
+
   def initialize(current_user)
     @current_user  = current_user
     @conn          = Faraday.new(url: "https://api.github.com") do |faraday|
@@ -33,12 +35,8 @@ class GithubService
     get_url("/users/#{@current_user.nickname}/orgs")
   end
 
-  def search_date
-    1.week.ago.strftime("%Y-%m-%d")
-  end
-
-  def recent_commits
-    get_url("/search/commits?q=committer-name:#{@current_user.nickname}+committer-date:>#{search_date}")
+  def recent_commits(user = @current_user.nickname)
+    get_url("/search/commits?q=committer-name:#{user}+committer-date:>#{search_date}")
   end
 
   private

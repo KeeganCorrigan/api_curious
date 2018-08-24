@@ -2,26 +2,11 @@
 <div class="clearfix">
 
   <div class="sm-col sm-col-3">
-    <%= image_tag current_user.avatar_url, class:"profile-image"  %>
-    <h2><%= current_user.username %></h2>
-    <h3><%= current_user.nickname %></h4>
-
-    <p>
-      Starred repos:
-      <% @github_presenter.starred.times do %>
-        <i class="fas fa-star"></i>
-      <% end %>
-    </p>
+  <%= render partial:"/partials/profile_info" %>
   </div>
 
   <div class="sm-col sm-col-9">
-
-    <div class="mxn1">
-      <%= link_to "Followers", user_followers_path(current_user), class:"btn button-narrow"%> /
-      <%= link_to "Following", user_following_path(current_user),class:"btn button-narrow" %> /
-      <%= link_to "Repos", user_repos_path(current_user), class:"btn button-narrow" %> /
-        <%= link_to "Organizations", user_organizations_path(current_user), class:"btn button-narrow" %>
-    </div>
+    <%= render partial: "/partials/on_page_nav" %>
 
     <h2> Recent Commits </h2>
    <% @github_presenter.recent_commits.each do |commit| %>

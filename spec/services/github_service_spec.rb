@@ -94,5 +94,25 @@ describe GithubService do
         end
       end
     end
+
+    describe "#follower_recent_commits" do
+      it "returns all commits by a follower" do
+        date = 1.week.ago.strftime("%Y-%m-%d")
+
+        json_response = File.open("./fixtures/github_followers_commits_nicholas.json")
+        stub_request(:get, "https://api.github.com/search/commits?q=committer-name:NicholasJacques+committer-date:>#{date}").to_return(status: 200, body: json_response)
+
+        user = create(:user)
+        ghs = GithubService.new(user)
+        follower_commits = ghs.recent_commits("NicholasJacques")
+        commit = follower_commits[:items].first
+
+        expect(follower_commits[:items].count).to eq(1)
+        expect(commit[:commit]).to have_key(:url)
+        expect(commit[:commit][:author]).to have_key(:date)
+        expect(commit[:commit][:author]).to have_key(:name)
+        expect(commit[:commit]).to have_key(:message)
+      end
+    end
   end
 end
