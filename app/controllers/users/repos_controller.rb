@@ -1,5 +1,5 @@
 class Users::ReposController < ApplicationController
   def index
-    @repos = GithubPresenter.new(current_user).repos
+    @github_presenter = GithubPresenter.new(current_user)
   end
 end

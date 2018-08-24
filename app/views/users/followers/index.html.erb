@@ -1,6 +1,3 @@
-<h1>Followers</h1>
-
-
 <div class="clearfix">
 
   <div class="sm-col sm-col-3">
@@ -27,10 +24,11 @@
       <div class="sm-col sm-col-9">
         <div class="recent-commit follower-table-text">
           <% if follower.commits != "No recent commits" %>
-            <p> <strong>Recent commit Message: <%= follower&.commits&.first&.message %></p>
+            <p> <strong>Recent commit Message:</strong> <%= follower&.commits&.first&.message %></p>
             <p> <strong>Repo:</strong> <%= follower&.commits&.first&.repo_name %></p>
           <% else %>
-            <p> <%= follower.commits %> </p>
+            <p><strong> <%= follower.commits %> </strong></p>
+            <p> Get back to work <%= follower.username %>! </p>
           <% end %>
         </div>
       </div>

@@ -6,6 +6,9 @@
     </div>
     <div class="right pr4 logout-button">
       <% if current_user %>
+        <button type="button" class="btn btn-primary">
+          <%= link_to "Profile", user_path(current_user), class:"link-reset" %>
+        </button>
         <%= link_to "Logout", signout_path, class:"btn py2 m0" %>
       <% end %>
     </div>

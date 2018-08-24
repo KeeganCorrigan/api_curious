@@ -19,13 +19,15 @@ describe GithubUser, type: :model do
     describe "#recent_commits" do
       it "returns recent commits for follower" do
         VCR.use_cassette("github_follower_recent_commits") do
+          user = create(:user)
+
           data = {
                     login: "KeeganCorrigan",
                     avatar_url: "poij09jasd",
                     uid: "08asd09u"
                   }
 
-          ghu = GithubUser.new(data)
+          ghu = GithubUser.new(data, user)
 
           recent_commits = ghu.commits
 

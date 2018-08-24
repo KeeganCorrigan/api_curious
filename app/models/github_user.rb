@@ -1,16 +1,13 @@
 class GithubUser
   include ApplicationModule
+
   attr_reader :username, :uid, :avatar_url, :commits
 
-  def initialize(data)
+  def initialize(data, current_user = nil)
     @username   = data[:login]
     @uid        = data[:uid]
     @avatar_url = data[:avatar_url]
-    @conn       = Faraday.new(url: "https://api.github.com") do |faraday|
-                    faraday.headers["Authorization"] = "token #{ENV["GITHUB_TEST"]}"
-                    faraday.headers["Accept"] = "application/vnd.github.cloak-preview"
-                    faraday.adapter Faraday.default_adapter
-                  end
+    @current_user = current_user
   end
 
   def commits
@@ -18,11 +15,15 @@ class GithubUser
   end
 
   def recent_commits
-    response = @conn.get("/search/commits?q=committer-name:#{@username}+committer-date:>#{search_date}")
-    parsed_json = JSON.parse(response.body, symbolize_names: true)
+    response = GithubService.new(@current_user).recent_commits(@username)
+    validate_commits(response)
+  end
 
-    if parsed_json[:total_count] > 0
-      parsed_json[:items].map do |commit|
+  private
+
+  def validate_commits(response)
+    if response[:total_count] > 0
+      response[:items].map do |commit|
         Commit.new(commit)
       end
     else

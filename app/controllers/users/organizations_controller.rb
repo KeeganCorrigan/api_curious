@@ -1,6 +1,6 @@
 class Users::OrganizationsController < ApplicationController
   def index
-    @organizations = GithubPresenter.new(current_user).organizations
+    @github_presenter = GithubPresenter.new(current_user)
   end
 
 end

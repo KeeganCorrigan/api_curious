@@ -1,8 +1,20 @@
-<h1>Organizations</h1>
+<div class="clearfix">
 
-<% @organizations.each do |organization| %>
-  <div class="organizations">
-    <p class="login"><%= organization.login %></p>
-    <p><%= organization.description %></p>
+  <div class="sm-col sm-col-3">
+  <%= render partial:"/partials/profile_info" %>
   </div>
-<% end %>
+
+  <div class="sm-col sm-col-9">
+    <%= render partial: "/partials/on_page_nav" %>
+
+
+    <h2>Organizations</h2>
+
+    <% @github_presenter.organizations.each do |organization| %>
+      <div class="organizations">
+        <p class="login"><%= organization.login %></p>
+        <p><%= organization.description %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
